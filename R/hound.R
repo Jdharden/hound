@@ -1,3 +1,15 @@
+#' @title
+#'
+#' @description
+#'
+#' @param
+#'
+#' @return
+#'
+#' @examples
+#'
+#' @export
+
 ## a simple outcome based analysis for determinig how likely an outcome is for one group compared to another
 relative_risk <- function(x_impacted, x_pop, y_impacted, y_pop) {
   risk <- (x_impacted/x_pop) / (y_impacted/y_pop)
