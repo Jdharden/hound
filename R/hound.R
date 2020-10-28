@@ -1,10 +1,10 @@
-#' @title
+#' @title hound
 #'
-#' @description
+#' @description Contains basic calculations journalists often use to analyze data
 #'
-#' @param
+#' @param dataframe
 #'
-#' @return
+#' @return dataframe
 #'
 #' @examples
 #'
