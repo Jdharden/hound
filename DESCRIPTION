@@ -1,0 +1,13 @@
+Package: hound
+Type: Package
+Title: A simple package to help journalists and other storytellers produce reproducible code and show their work.
+Version: 0.1.0
+Author: John D. Harden
+Maintainer: John D. Harden <jdhardenjr@gmail.com>
+Description: An ongoing project that compiles the most commonly used calculations used by
+    journalist to avoid errors in data analysis. The goal of this project is to help
+    writers avoid mistakes when using data. 
+License: 
+Encoding: UTF-8
+LazyData: true
+Imports: tidyverse

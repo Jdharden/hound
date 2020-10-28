@@ -1,0 +1,25 @@
+{
+    "id": "28F24994",
+    "path": "~/Desktop/github_notebooks/hound/hound/R/hound.R",
+    "project_path": "R/hound.R",
+    "type": "r_source",
+    "hash": "3649632263",
+    "contents": "",
+    "dirty": false,
+    "created": 1603893550256.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "27,21",
+        "scrollLine": "16"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1603894990,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1603894990989,
+    "read_only": false,
+    "read_only_alternatives": []
+}
