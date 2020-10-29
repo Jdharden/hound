@@ -31,20 +31,36 @@ percent_change <- function(new, old) {
 }
 
 ## creates a common pivot table for calculating the number of times a variable appears in a column
-sniff <- function(x){
-  group_by(x) %>%
-    tally() %>%
-    print()
+sniff <- function(data, col){
+  search <- data %>%
+  group_by(data[, col]) %>%
+    tally()
+
+  print(search)
+
 }
 
+#example  sniff(test, "NAMELSAD")
+
+
 ## creates a table to sum columns
-dig <- function(x, y){
-  group_by(x) %>%
+dig <- function(data, a, b){
+
+dig_total <- group_by(data[, a]) %>%
     summarize(
-      total_sum = sum(y, na.rm = TRUE)
-    ) %>%
-    print()
+      total_sum = sum(data[, b], na.rm = TRUE)
+    )
+
+print(dig_total)
+
 }
+
+# example: dig(test, "NAMELSAD", "total")
+
+
+
+
+
 
 
 
